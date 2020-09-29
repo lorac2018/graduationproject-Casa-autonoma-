@@ -1,0 +1,13 @@
+STATUS | wrapper  | 2019/03/10 22:55:12 | openHAB2 installed.
+STATUS | wrapper  | 2019/03/10 22:55:23 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/03/10 22:55:24 | Launching a JVM...
+INFO   | jvm 1    | 2019/03/10 22:55:24 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/03/10 22:55:24 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/03/10 22:55:24 | 
+INFO   | jvm 1    | 2019/03/10 22:55:25 | mar 10, 2019 10:55:25 PM org.apache.karaf.main.lock.SimpleFileLock lock
+INFO   | jvm 1    | 2019/03/10 22:55:25 | INFO: Trying to lock C:\openhab\userdata\tmp\lock
+INFO   | jvm 1    | 2019/03/10 22:55:25 | mar 10, 2019 10:55:25 PM org.apache.karaf.main.lock.SimpleFileLock lock
+INFO   | jvm 1    | 2019/03/10 22:55:25 | INFO: Lock acquired
+INFO   | jvm 1    | 2019/03/10 22:55:25 | mar 10, 2019 10:55:25 PM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO   | jvm 1    | 2019/03/10 22:55:25 | INFO: Lock acquired. Setting startlevel to 100
+STATUS | wrapper  | 2019/03/10 23:00:17 | <-- Wrapper Stopped

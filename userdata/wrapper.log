@@ -1,0 +1,3 @@
+FATAL  | wrapper  | 2019/03/10 22:51:54 | OpenSCManager failed - Acesso negado. (0x5)
+FATAL  | wrapper  | 2019/03/10 22:52:25 | OpenSCManager failed - Acesso negado. (0x5)
+STATUS | wrapper  | 2019/03/10 22:52:58 | openHAB2 removed.

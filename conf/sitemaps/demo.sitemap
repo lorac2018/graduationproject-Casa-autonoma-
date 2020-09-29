@@ -1,0 +1,15 @@
+sitemap demo label="My home automation" {
+
+        Frame label="Data" {
+        Text item=Date  
+    }
+    
+    Frame label="Primeiro Andar" {
+        Switch item=Test
+        Group item=Temperatura icon="Temperature"
+        Setpoint item=Temperatura_Interior label="Temperatura Interior [%.2f °C]" minValue=20 maxValue=30 step=0.5
+        Chart item=Temperatura period=h refresh=200 legend=true
+        //Chart item=Temperatura_Interior period=h refresh=200 legend=true
+    }
+}
+

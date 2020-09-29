@@ -1,0 +1,15 @@
+/*Datas*/
+
+ DateTime Date  "Date [%1$tA, %1$td.%1$tm.%1$tY %1$tH:%1$tM]" { channel="ntp:ntp:demo:dateTime" }
+ 
+/*Switch Temperatura + API de Temperatura*/
+Group  Temperatura
+Number Temperatura_Exterior "Temperatura Exterior [%.2f ºC]"  <Temperature> (Temperatura)  {weather="locationId=home-FIO, type=temperature, property=current"}
+Number Temperatura_Interior "Temperatura Interior [%.2f ºC]"<Temperature> (Temperatura) /*{serial="COM3"}*/
+Switch Test
+
+
+
+//ARDUINO
+//String Distancia "[%d]" (arduino) {serial="COM3"}
+//Switch Test //"LUZ" (arduino) {serial="COM3@9600"}
